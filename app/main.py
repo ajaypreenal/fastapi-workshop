@@ -8,7 +8,7 @@ from app.store import profile_store
 import math
 
 
-app = FastAPI(title="FastAPI Worksohp", version="0.1.0")
+app = FastAPI(title="FastAPI Workshop", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
