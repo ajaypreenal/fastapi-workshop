@@ -1,4 +1,23 @@
-# BUG: This .gitignore is incomplete - missing common Python entries
+# Virtual environment
 venv/
+
+# IDEs
 .vscode/
 .idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution/build
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Test cache
+.pytest_cache/
