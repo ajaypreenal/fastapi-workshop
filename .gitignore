@@ -1,0 +1,4 @@
+# BUG: This .gitignore is incomplete - missing common Python entries
+venv/
+.vscode/
+.idea/
